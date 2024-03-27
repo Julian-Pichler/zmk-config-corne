@@ -33,18 +33,18 @@
                         display-name = "Base";
                         bindings = <
 
-   AS(N1)     AS(N2)     AS(N3)     AS(N4)     AS(N5)             AS(N6)     AS(N7)     AS(N8)     AS(N9)    AS(N0)
-   AS(MINUS)  AS(EQUAL)  &kp LBRC   &kp LBKT   &kp LPAR           &kp RPAR   &kp RBKT   &kp RBRC   AS(FSLH)  AS(BSLH)
-   &trans     &trans     &trans     &trans     &trans             &kp SEMI   AS(DOT)    &kp LCTRL  &kp RALT  &trans
-                         &kp LGUI   &mo 2      &kp SPACE          AS(RET)    &mo 1      &kp TAB
+   &kp Q      &kp W      &kp E      &kp R      &kp T              &kp Z      &kp U      &kp I      &kp O     &kp P 
+   &kp A      &kp S      &kp D      &kp F      &kp G              &kp H      &kp J      &kp K      &kp L     &trans 
+   &kp Y      &kp X      &kp C      &kp V      &kp B              &kp N      &kp M      &kp COMMA  &kp DOT   &kp MINUS
+                         &kp LSHIFT &mo 2      &kp SPACE          &kp BSPC   &mo 1      &kp RETURN      
 
                         >;
                 };
 
 // DEFAULT---------------------------------------------------------------------------------------
-// |  Q  |  W  |  E  |  R  |  T  |         |  Y  |  U   |  I   |  O   |  P  |
+// |  Q  |  W  |  E  |  R  |  T  |         |  Z  |  U   |  I   |  O   |  P  |
 // |  A  |  S  |  D  |  F  |  G  |         |  H  |  J   |  K   |  L   |  ß  | 
-// |  Z  |  X  |  C  |  V  |  B  |         |  N  |  M   |  ,   |  .   |  -  |
+// |  Y  |  X  |  C  |  V  |  B  |         |  N  |  M   |  ,   |  .   |  -  |
 //             | LSH | RSE | SPC |         | BSPC| LWR  | ENT  |
 
 
